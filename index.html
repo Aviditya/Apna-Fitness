@@ -15,7 +15,8 @@
 <meta name="robots" content="index, follow">
 <meta name="copyright" content="aviditya singh">
 <meta name="language" content="EN">
-      
+
+    
 </head>
 <body>
     <header class="text-gray-700 body-font">
@@ -300,16 +301,22 @@
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever query or question you have, you can write us here and we shall ccontact you soon.</p>
           </div>
           </a>
+          <form id="contact" netlify>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
-		    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "8084409",
-	formId: "2ece840c-62a9-4822-95b9-bce4f1dc292c"
-});
-</script>
-		    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              <div class="p-2 w-1/2">
+                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Name" type="text">
+              </div>
+              <div class="p-2 w-1/2">
+                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Email" type="email">
+              </div>
+              <div class="p-2 w-full">
+                <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" type="submit">Send</button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a class="text-green-500">customer@Apnafitness.com</a>
                 <p class="leading-normal my-5">49 Smith St.
                   <br>Saint Cloud, MN 56301
@@ -318,20 +325,9 @@
               </div>
             </div>
           </div>
+        </form>
         </div>
       </section>
-<form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
       
       <footer class="text-gray-700 body-font">        
         <div class="bg-gray-200">
