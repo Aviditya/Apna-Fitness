@@ -346,16 +346,26 @@
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
-              <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Name" type="text">
+             <label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
+             <br>
+             <input name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2 form-input" placeholder="Name" type="text">
             </div>
             <div class="p-2 w-1/2">
-              <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Email" type="email">
+             <label id="contact-form-email-label" for="contact-form-email" class="form-label">Email</label>
+             <br>
+              
+              <input name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2 form-input" placeholder="Email" type="email">
             </div>
             <div class="p-2 w-full">
-              <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+              
+              <label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label><br>
+       
+              <textarea  name="message"
+            id="contact-form-message"
+            aria-labelledby="contact-form-message-label" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-500 text-base px-4 py-2 resize-none block form-textarea" placeholder="Message"></textarea>
             </div>
             <div class="p-2 w-full">
-              <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" type="submit">Send</button>
+              <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg button" type="submit">Send</button>
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <a class="text-green-500">customer@Apnafitness.com</a>
